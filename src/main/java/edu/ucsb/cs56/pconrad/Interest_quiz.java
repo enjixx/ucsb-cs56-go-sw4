@@ -48,17 +48,22 @@ public class Interest_quiz {
 						if((rq.queryParams("q3")).equals("cheap")){
 							if((rq.queryParams("q4")).equals("urban")){
 								quiz_map.put("feedback", "Santa Cruz Boardwalk");
+								quiz_map.put("imgPath", "Santa_Cruz_Boardwalk.jpg");
 							}
 							else{
 								quiz_map.put("feedback", "Mission Peak Hiking Trail");
+								quiz_map.put("imgPath", "Mission_Peak_Hiking_Trail.jpg");
+
 							}
 						}
 						else{
 							if((rq.queryParams("q4")).equals("urban")){
 								quiz_map.put("feedback", "Monterey Bay Aquarium");
+								quiz_map.put("imgPath", "Monterey_Bay_Aquarium.jpg");
 							}
 							else{
 								quiz_map.put("feedback", "Yosemite Valley Camping");
+								quiz_map.put("imgPath", "Yosemite_Valley_Camping.jpg");
 							}
 						}
 					}
@@ -66,18 +71,23 @@ public class Interest_quiz {
 							if((rq.queryParams("q3")).equals("cheap")){
 								if((rq.queryParams("q4")).equals("urban")){
 									quiz_map.put("feedback", "Golden Gate Bridge");
+									quiz_map.put("imgPath", "Golden_Gate_Bridge.jpg");
 								}
 								else{
 									quiz_map.put("feedback", "Japanese Tea Garden");
+									quiz_map.put("imgPath", "Japanese_Tea_Garden.jpg");
 								}
 							}
 							else{
 								if((rq.queryParams("q4")).equals("urban")){
 									quiz_map.put("feedback", "Ice Cream Museum");
+									quiz_map.put("imgPath", "Ice_Cream_Museum.jpg");
 								}
 								else{
 									quiz_map.put("feedback", "Lake Tahoe Camping");
+									quiz_map.put("imgPath", "Lake_Tahoe_Camping.jpg");
 								}
+
 							}
 					}
 				}
@@ -90,14 +100,17 @@ public class Interest_quiz {
 								}
 								else{
 									quiz_map.put("feedback", "Malibu Beach");
+									quiz_map.put("imgPath", "Malibu_Beach.jpg");
 								}
 							}
 							else{
 								if((rq.queryParams("q4")).equals("urban")){
 									quiz_map.put("feedback", "DisneyLand");
+									quiz_map.put("imgPath", "DisneyLand.jpg");
 								}
 								else{
 									quiz_map.put("feedback", "Santa Catalina Island");
+									quiz_map.put("imgPath", "Santa_Catalina_Island.jpg");
 								}
 							}
 						}
@@ -105,17 +118,22 @@ public class Interest_quiz {
 							if((rq.queryParams("q3")).equals("cheap")){
 								if((rq.queryParams("q4")).equals("urban")){
 									quiz_map.put("feedback", "Palm Springs Air Museum");
+									quiz_map.put("imgPath", "Palm_Springs_Air_Museum.jpg");
 								}
 								else{
 									quiz_map.put("feedback", "Joshua Tree National Park");
+									quiz_map.put("imgPath", "Joshua_Tree_National_Park.jpg");
 								}
 							}
 							else{
 								if((rq.queryParams("q4")).equals("urban")){
 									quiz_map.put("feedback", "San Diego SeaWorld");
+									quiz_map.put("imgPath", "San_Diego_SeaWorld.jpg");
 								}
 								else{
 									quiz_map.put("feedback", "Palm Springs Air Trampway");
+									quiz_map.put("imgPath", "Palm_Springs_Air_Trampway.jpg");
+
 								}
 							}
 							quiz_map.put("feedback", "Please follow our instruction for input");
