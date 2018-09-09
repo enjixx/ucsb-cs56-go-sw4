@@ -106,7 +106,7 @@ public class Interest_quiz {
 							else{
 								if((rq.queryParams("q4")).equals("urban")){
 									quiz_map.put("feedback", "DisneyLand");
-									quiz_map.put("imgPath", "DisneyLand.jpg");
+									quiz_map.put("imgPath", "disneyland.jpg");
 								}
 								else{
 									quiz_map.put("feedback", "Santa Catalina Island");
@@ -131,8 +131,8 @@ public class Interest_quiz {
 									quiz_map.put("imgPath", "San_Diego_SeaWorld.jpg");
 								}
 								else{
-									quiz_map.put("feedback", "Palm Springs Air Trampway");
-									quiz_map.put("imgPath", "Palm_Springs_Air_Trampway.jpg");
+									quiz_map.put("feedback", "Palm Springs Air Tramway");
+									quiz_map.put("imgPath", "Palm_Springs_Air_Tramway.jpg");
 
 								}
 							}
