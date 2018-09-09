@@ -106,7 +106,7 @@ public class Interest_quiz {
 							else{
 								if((rq.queryParams("q4")).equals("urban")){
 									quiz_map.put("feedback", "DisneyLand");
-									quiz_map.put("imgPath", "DisneyLand.jpg");
+									quiz_map.put("imgPath", "disneyland.jpg");
 								}
 								else{
 									quiz_map.put("feedback", "Santa Catalina Island");
