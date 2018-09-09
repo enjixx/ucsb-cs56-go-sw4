@@ -131,8 +131,8 @@ public class Interest_quiz {
 									quiz_map.put("imgPath", "San_Diego_SeaWorld.jpg");
 								}
 								else{
-									quiz_map.put("feedback", "Palm Springs Air Trampway");
-									quiz_map.put("imgPath", "Palm_Springs_Air_Trampway.jpg");
+									quiz_map.put("feedback", "Palm Springs Air Tramway");
+									quiz_map.put("imgPath", "Palm_Springs_Air_Tramway.jpg");
 
 								}
 							}
