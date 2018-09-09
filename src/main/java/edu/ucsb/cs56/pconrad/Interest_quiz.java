@@ -136,14 +136,17 @@ public class Interest_quiz {
 
 								}
 							}
-							quiz_map.put("feedback", "Please follow our instruction for input");
+
 						}
 					}
+					if(quiz_map.get("feedback").equals("Palm Springs Air Tramway")){
+					quiz_map.put("feedback", "Please follow our instruction for input");
+					quiz_map.put("imgPath", "Error.jpg");
+				}
 				return new ModelAndView(quiz_map, "feedback.mustache");
 			}, new MustacheTemplateEngine());
 }
 
-			// new ModelAndView(map, "addedStudent.mustache"), new MustacheTemplateEngine());
 
 
 
